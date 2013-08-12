@@ -1,3 +1,5 @@
+require 'delayed_task'
+
 module DelayedTask
   class << self
     include Rake::DSL if defined?(Rake::DSL)
